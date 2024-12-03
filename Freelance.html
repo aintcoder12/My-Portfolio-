@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Freelance Graphic Design</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+  <style>
+
+    /* General Style */
+
+    body {
+
+      margin: 0;
+
+      padding: 0;
+
+      font-family: 'Montserrat', sans-serif;
+
+      background-color: #f9f9f9;
+
+      color: #333;
+
+    }
+
+
+
+    /* Header */
+
+    header {
+
+      background: linear-gradient(135deg, #d8b064, #fc7202);
+
+      color: white;
+
+      padding: 20px 10px;
+
+      text-align: center;
+
+    }
+
+
+
+    header h1 {
+
+      margin: 0;
+
+      font-size: 2.5em;
+
+    }
+
+
+
+    header p {
+
+      margin: 10px 0 0;
+
+      font-size: 1.2em;
+
+    }
+
+
+
+    /* Main Section */
+
+    .GD {
+
+      padding: 50px 20px;
+
+    }
+
+
+
+    .GD-title {
+
+      font-size: 2em;
+
+      font-weight: bold;
+
+      color: #333;
+
+      text-align: center;
+
+      margin-bottom: 20px;
+
+    }
+
+
+
+    .GD-grid {
+
+      display: grid;
+
+      grid-template-columns: repeat(3, minmax(250px, 1fr));
+
+      gap: 20px;
+
+    }
+
+
+
+    .GD-box {
+
+      background: white;
+
+      border: 1px solid #ddd;
+
+      border-radius: 10px;
+
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      overflow: hidden;
+
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    }
+
+
+
+    .GD-box img {
+
+  width: 100%;
+
+  height: 450px;  /* Fixed height to make images equal */
+
+  object-fit: cover;  /* Ensures the images cover the area while preserving their aspect ratio */
+
+}
+
+
+
+
+
+    .GD-box:hover {
+
+      transform: translateY(-5px);
+
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    }
+
+
+
+    .GD-box .description {
+
+      padding: 15px;
+
+      text-align: center;
+
+    }
+
+
+
+    .GD-box .description h3 {
+
+      font-size: 1.2em;
+
+      font-weight: bold;
+
+      color: #333;
+
+      margin: 0;
+
+    }
+
+
+
+    .GD-box .description p {
+
+      font-size: 0.9em;
+
+      color: #555;
+
+      margin: 10px 0 0;
+
+    }
+
+
+
+    /* Footer */
+
+    footer {
+
+      background-color: #333;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 10px 20px;
+
+      font-size: 0.9em;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+<!-- Header -->
+
+<header>
+
+  <h1>Freelance Graphic Design</h1>
+
+  <p>Showcasing Creativity and Professionalism</p>
+
+</header>
+
+
+
+<!-- Portfolio Section -->
+
+<div class="GD">
+
+  <h2 class="GD-title">My Work</h2>
+
+  <div class="GD-grid">
+
+    <!-- Card 1 -->
+
+    <div class="GD-box">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+      <img src="graphic/freelance1.png" alt="Graphic Design 1" style="height: auto;">
+
+       <div class="description">
+
+        <h3>Project 1</h3>
+
+        <p>Logo Design for Brand</p>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Card 2 -->
+
+    <div class="GD-box">
+
+      <img src="graphic/freelance5.png" alt="Graphic Design 2">
+
+      <div class="description">
+
+        <h3>Project 2</h3>
+
+        <p>Website Banner Design</p>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Card 3 -->
+
+    <div class="GD-box">
+
+      <img src="Picture/gdcat.png" alt="Graphic Design 3">
+
+      <div class="description">
+
+        <h3>Project 3</h3>
+
+        <p>Creative Art</p>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Card 4 -->
+
+    <div class="GD-box">
+
+      <img src="graphic/freelancewatch.png" alt="Graphic Design 4">
+
+      <div class="description">
+
+        <h3>Project 4</h3>
+
+        <p>Product Mockup</p>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Card 5 -->
+
+    <div class="GD-box">
+
+      <img src="graphic/freelancepromo.png" alt="Graphic Design 5">
+
+      <div class="description">
+
+        <h3>Project 5</h3>
+
+        <p>Promotional Poster</p>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Card 6 -->
+
+    <div class="GD-box">
+
+      <img src="graphic/freelanceshoes.png" alt="Graphic Design 6">
+
+      <div class="description">
+
+        <h3>Project 6</h3>
+
+        <p>Advertisement Design</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- Footer -->
+
+<footer>
+
+  <p>&copy; 2024 Freelance Graphic Design. All rights reserved.</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
